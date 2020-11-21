@@ -9,9 +9,17 @@ def key_for_min_value(name_hash)
   
   name_hash.each do |key,value|
     if min_value == nil || value < min_value
+<<<<<<< HEAD
+=======
+      #binding.pry
+>>>>>>> 050eb8df1b60f9b11d55da620bf66cd65267cabc
       min_value = value
       key_to_return = key
     end
   end
   key_to_return
+<<<<<<< HEAD
+=======
+  binding.pry
+>>>>>>> 050eb8df1b60f9b11d55da620bf66cd65267cabc
 end
